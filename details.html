@@ -14,7 +14,7 @@
 
   <header class="container-fluid text-center">
     <!-- <h1>Movie Detail</h1> -->
-    
+    <h1></h1>
   </header>
   
 
@@ -40,8 +40,12 @@
     var poster= localStorage.getItem('mPoster');
     var title= localStorage.getItem('mTitle');
     var overview=localStorage.getItem('mOverview');
+    var rating=localStorage.getItem('mRating');
+    var releaseDate=localStorage.getItem('mReleaseDate');
     $('#detailsText').append(overview);
-    $('header').append(title);
+    $('#detailsText').append(rating);
+    $('#detailsText').append(releaseDate);
+    $('h1').append(title);
     $('#detailsMain').append(poster);
      </script>
 </body>

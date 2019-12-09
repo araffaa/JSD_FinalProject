@@ -9,6 +9,7 @@ $('#search').on('click',function(){
   var title = $('#term').val();
   url += '&api_key=' + newapikey + '&query=' + title ;
   console.log(title);
+
 $.get(url).done(function(response) {
     console.log(response);
     if (response.stat === 'fail') {
@@ -40,12 +41,15 @@ $.get(url).done(function(response) {
     });
     $('img').on('click', function(){
       var poster="<img class=responsive-img src= http://image.tmdb.org/t/p/w500/"+ Data[$(this).attr('id')].poster_path +" >"
-      var title="<h1> "+Data[$(this).attr('id')].title+ " </h1>"
-      var overview='<span class="black-text">'+ Data[$(this).attr('id')].overview+'</span>'
-      var rating='<span class="black-text">'+ Data[$(this).attr('id')].overview+'</span>'
+      var mtitle=Data[$(this).attr('id')].title
+      var overview='<span class="black-text" style="font-size:large"><strong style="font-weight: bold">Plot: </strong>'+ Data[$(this).attr('id')].overview+'</span><br><br>'
+      var rating='<span class="black-text" style="font-size:large"><strong style="font-weight: bold">Rating: </strong>'+ Data[$(this).attr('id')].vote_average+'</span><br><br>'
+      var releaseDate='<span class="black-text" style="font-size:large"><strong style="font-weight: bold">Release Date: </strong>'+ Data[$(this).attr('id')].release_date+'</span><br><br>'
       localStorage.setItem('mPoster',poster);
-      localStorage.setItem('mTitle',title);
+      localStorage.setItem('mTitle',mtitle);
       localStorage.setItem('mOverview',overview);
+      localStorage.setItem('mRating',rating);
+      localStorage.setItem('mReleaseDate',releaseDate);
       window.open("details.html")
 
 
