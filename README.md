@@ -22,14 +22,14 @@
   [Learn More](https://jquery.com)
 
 - **Bootstrap**:
-    Bootstrap is an HTML, CSS, and JavaScript open-source framework (initially created by Twitter) that you can use as a basis for creating web sites or web applications.
+    Bootstrap is an HTML, CSS, and JavaScript open-source framework (initially created by Twitter) that you can use as a basis for creating web sites or web applications. To use Bootstrap library through **CDN** call as follows
     ```
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     ```
     [Learn More](https://getbootstrap.com)
     
     - **Materialize**:
-    Bootstrap is an HTML, CSS, and JavaScript open-source framework (initially created by Twitter) that you can use as a basis for creating web sites or web applications.
+    reated and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. To use Materilaize library through **CDN** call as follows
     ```
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     ```
