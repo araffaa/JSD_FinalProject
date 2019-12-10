@@ -29,7 +29,7 @@
     [Learn More](https://getbootstrap.com)
     
     - **Materialize**:
-    reated and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. To use Materilaize library through **CDN** call as follows
+    Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. To use Materilaize library through **CDN** call as follows
     ```
    <link rel="stylesheet" 
    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
