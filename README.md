@@ -1,3 +1,36 @@
 # Movie Poster Search Engine
 
 ![](https://media.giphy.com/media/fVmwWrnOw2Cver5xI6/giphy.gif)
+
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Usage](#usage)
+* [Next Step](#Next-Step)
+* [Resources](#Resources)
+
+
+## Introduction
+
+## Usage
+
+- **jQuery**:
+  jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. To use jQuery library through **CDN** call as follows
+  ```
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  ```
+  [Learn More](https://jquery.com)
+
+- **Bootstrap**:
+    Bootstrap is an HTML, CSS, and JavaScript open-source framework (initially created by Twitter) that you can use as a basis for creating web sites or web applications.
+    ```
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    ```
+    [Learn More](https://getbootstrap.com)
+    
+    - **Materialize**:
+    Bootstrap is an HTML, CSS, and JavaScript open-source framework (initially created by Twitter) that you can use as a basis for creating web sites or web applications.
+    ```
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    ```
+    [Learn More](https://materializecss.com/)
