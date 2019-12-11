@@ -42,6 +42,8 @@ This list contains features planned to release in near future
 - Add Youtube integration to display current movie trailer.
 - Add randomized feature to display random movie details (if you cannot decide which movie to watch we are here for you).
 - Improve the current look and feel of the site.
+- Add like/dislike feature to keep track of user movies.
+- Add user history to display list of movies user have opened.
 
 ## Resources
 
