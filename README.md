@@ -21,14 +21,12 @@ Have you ever wondered how to browse huge collection of your favorite Movie post
   ```
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   ```
-  [Learn More](https://jquery.com)
 
 - **Bootstrap**:
     Bootstrap is an HTML, CSS, and JavaScript open-source framework (initially created by Twitter) that you can use as a basis for creating web sites or web applications. To use Bootstrap library through **CDN** call as follows
     ```
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     ```
-    [Learn More](https://getbootstrap.com)
     
  - **Materialize**:
     Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. To use Materilaize library through **CDN** call as follows
@@ -36,8 +34,18 @@ Have you ever wondered how to browse huge collection of your favorite Movie post
    <link rel="stylesheet" 
    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     ```
-    [Learn More](https://materializecss.com/)
 
 ## Next Step
 
+This list contains features planned to release in near future
+- Add IMDB Rating + Info to the current info.
+- Add Youtube integration to display current movie trailer.
+- Add randomized feature to display random movie details (if you cannot decide which movie to watch we are here for you).
+- Improve the current look and feel of the site.
+
 ## Resources
+
+- [TMDb](https://www.themoviedb.org/)
+- [JQuery](https://jquery.com)
+- [Materialize](https://materializecss.com/)
+- [Bootstrap](https://getbootstrap.com)
