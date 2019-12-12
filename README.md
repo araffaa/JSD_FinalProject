@@ -14,6 +14,8 @@
 
 Have you ever wondered how to browse huge collection of your favorite Movie posters? Here you can, through this search engine using [TMDb](https://www.themoviedb.org/) API you can feast your eyes through glorious Posters! just write your movie title and click find.
 
+for direct link to the page click [here](https://araffaa.github.io/JSD_FinalProject/)
+
 ## Usage
 
 - **jQuery**:
